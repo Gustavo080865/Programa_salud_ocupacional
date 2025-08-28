@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Actualización en Normativas de Seguridad y Salud en el Trabajo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Programa de Actualización en Normativas de Seguridad y Salud en el Trabajo</h1>
+            <p>Para Personal de Salud Ocupacional</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="introduction">
+            <h2>Importancia de la Actualización Normativa</h2>
+            <p>El cumplimiento normativo es la base de la salud ocupacional. Mantenerse al día con las leyes y regulaciones es crítico para prevenir accidentes, enfermedades laborales y sanciones legales. Asegura que la institución opere dentro del marco legal, protegiendo tanto a los empleados como a la organización de riesgos significativos.</p>
+            <p>Este programa te permitirá estar al tanto de las últimas modificaciones y garantizar la seguridad y el bienestar en tu entorno laboral.</p>
+        </section>
+
+        <section id="modules">
+            <h2>Módulos del Programa</h2>
+            <div class="module-list">
+                <div class="module-card" data-module="modulo1">
+                    <h3>Módulo 1: Marco Legal General de SST</h3>
+                    <p>Revisión de la legislación fundamental en Seguridad y Salud en el Trabajo, incluyendo leyes generales y decretos principales.</p>
+                    <button class="learn-more-btn">Ver Contenido</button>
+                </div>
+                <div class="module-card" data-module="modulo2">
+                    <h3>Módulo 2: Normativas Específicas por Sector</h3>
+                    <p>Análisis de regulaciones aplicables a sectores específicos (ej. construcción, salud, manufactura) y sus implicaciones.</p>
+                    <button class="learn-more-btn">Ver Contenido</button>
+                </div>
+                <div class="module-card" data-module="modulo3">
+                    <h3>Módulo 3: Gestión de Riesgos y Auditorías</h3>
+                    <p>Actualización sobre normativas para la identificación, evaluación y control de riesgos, así como la realización de auditorías internas.</p>
+                    <button class="learn-more-btn">Ver Contenido</button>
+                </div>
+                <div class="module-card" data-module="modulo4">
+                    <h3>Módulo 4: Prevención de Enfermedades Laborales</h3>
+                    <p>Revisión de normativas relacionadas con la vigilancia de la salud, programas de prevención y reporte de enfermedades laborales.</p>
+                    <button class="learn-more-btn">Ver Contenido</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="module-detail" class="hidden">
+            <h2 id="detail-title"></h2>
+            <div id="detail-content"></div>
+            <button id="back-to-modules">Volver a Módulos</button>
+        </section>
+
+        <section id="registration">
+            <h2>Inscríbete Ahora</h2>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="name">Nombre Completo:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="institution">Institución:</label>
+                    <input type="text" id="institution" name="institution">
+                </div>
+                <button type="submit">Enviar Inscripción</button>
+            </form>
+            <p id="registration-message" class="hidden"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Programa de Actualización en SST. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
